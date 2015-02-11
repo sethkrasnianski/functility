@@ -20,6 +20,7 @@ var require_all = function(location) {
 
 module.exports = {
 
-  require_all: require_all
+  require_all: require_all,
+  crypt: require_all('./lib/crypt')
 
 };

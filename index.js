@@ -11,7 +11,10 @@ var require_all = function(location) {
       return (file.indexOf(".") !== 0) && (file.indexOf("index.") == -1);
     })
     .forEach(function(file) {
-      var module = file.substr(0, file.indexOf('.js'));
+      var fileType = ".js";
+      if(file.indexOf('.coffee') > -1) fileType = ".coffee";
+
+      var module = file.substr(0, file.indexOf(fileType));
       modules[module] = require(location + "/" + file);
     });
 
@@ -21,6 +24,6 @@ var require_all = function(location) {
 module.exports = {
 
   require_all: require_all,
-  crypt: require_all('./lib/crypt')
+  crypt: require_all(__dirname + '/lib/crypt')
 
 };

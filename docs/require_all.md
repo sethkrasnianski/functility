@@ -1,6 +1,6 @@
 # require_all(location)
 
-##### [source](../../lib/require_all.js)
+##### [source](../lib/require_all.js)
 
 `location` - path where modules are located
 

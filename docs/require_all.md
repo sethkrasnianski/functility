@@ -1,4 +1,4 @@
-# require_all(location)
+# requireAll(location)
 
 ##### [source](../lib/require_all/index.js)
 
@@ -20,5 +20,5 @@ module.exports = {
 Into ...
 
 ```javascript
-module.exports = require('functility').require_all(__dirname);
+module.exports = require('functility').requireAll(__dirname);
 ```

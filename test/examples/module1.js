@@ -1,7 +1,7 @@
 module.exports = {
 
   someFunc: function() {
-    return "Dogs";
+    return 'Dogs';
   },
 
   anotherFunc: function() {

@@ -1,7 +1,7 @@
 module.exports = {
 
   functionIsm: function() {
-    return "Cats";
+    return 'Cats';
   },
 
   methodIsm: function() {

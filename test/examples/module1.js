@@ -8,4 +8,4 @@ module.exports = {
     return 589 + 38;
   }
 
-}
+};

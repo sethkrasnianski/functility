@@ -1,1 +1,1 @@
-module.exports = require('../').require_all(__dirname);
+module.exports = require('../').requireAll(__dirname);

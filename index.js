@@ -1,5 +1,3 @@
-"use strict";
-
 var require_all = require('./lib/require_all');
 
 module.exports = {

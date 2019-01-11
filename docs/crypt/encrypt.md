@@ -9,7 +9,7 @@
 `CRYPTO_HMAC_KEY` - required 256 bit environment variable
 
 ```javascript
-var crypt = require('functility').crypt;
+const crypt = require('functility').crypt;
 
 crypt.encrypt('toasterOven@!#_');
 

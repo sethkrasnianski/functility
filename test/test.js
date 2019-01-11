@@ -5,7 +5,12 @@ const { encrypt, decrypt } = crypto;
 describe('requireAll', function() {
   it('should return an object with 2 properties', function(done) {
     const modules = requireAll('./fixtures');
+    const { module1, module2 } = modules;
     assert.strictEqual(Object.keys(modules).length, 2);
+    assert.strictEqual(module1.someFunc(), 'Dogs');
+    assert.strictEqual(module1.anotherFunc(), 627);
+    assert.strictEqual(module2.functionIsm(), 'Cats');
+    assert(module2.methodIsm());
     done();
   });
 });

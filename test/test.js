@@ -4,7 +4,7 @@ const { encrypt, decrypt } = crypto;
 
 describe('requireAll', function() {
   it('should return an object with 2 properties', function(done) {
-    const module = requireAll(__dirname + '/examples');
+    const module = requireAll('./examples');
     assert(2, module.length);
     done();
   });

@@ -15,6 +15,9 @@ describe('crypto', function() {
     const text = 'mysupersecrettext';
     const cipher = encrypt(text);
 
+    assert.deepEqual(Object.keys(cipher), ['iv', 'encryptedData']);
+    assert.strictEqual(cipher.iv.length, 32);
+    assert.strictEqual(cipher.encryptedData.length, 64);
     assert.notStrictEqual(text, cipher);
     done();
   });

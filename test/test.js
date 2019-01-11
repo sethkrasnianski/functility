@@ -22,9 +22,9 @@ describe('crypt', function() {
 
   it('should decrypt a cipher', function(done) {
     var decrypt = functility.crypt.decrypt;
-    var text    = decrypt(cipher);
+    var encrypt = functility.crypt.encrypt;
 
-    assert('testringthisout', text);
+    assert(decrypt(encrypt('testringthisout')), 'testringthisout');
     done();
   });
 });

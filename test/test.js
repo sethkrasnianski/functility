@@ -10,9 +10,9 @@ describe('requireAll', function() {
   });
 });
 
-describe('crypt', function() {
+describe('crypto', function() {
   it('should encrypt text', function(done) {
-    var encrypt = functility.crypt.encrypt;
+    var encrypt = functility.crypto.encrypt;
     var text = 'testingthisout';
     var cipher  = encrypt(text);
 
@@ -21,8 +21,8 @@ describe('crypt', function() {
   });
 
   it('should decrypt a cipher', function(done) {
-    var decrypt = functility.crypt.decrypt;
-    var encrypt = functility.crypt.encrypt;
+    var decrypt = functility.crypto.decrypt;
+    var encrypt = functility.crypto.encrypt;
 
     assert(decrypt(encrypt('testringthisout')), 'testringthisout');
     done();

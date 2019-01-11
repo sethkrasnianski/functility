@@ -15,7 +15,8 @@ describe('requireAll', function() {
 describe('crypt', function() {
   it('should encrypt text', function(done) {
     var encrypt = functility.crypt.encrypt;
-    var cipher  = encrypt('testingthisout');
+    var text = 'testingthisout';
+    var cipher  = encrypt(text);
 
     assert(cipher, cipher);
     done();

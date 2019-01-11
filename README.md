@@ -1,2 +1,2 @@
-# Functility [![Build Status](https://travis-ci.org/sethkrasnianski/functility.svg?branch=master)](https://travis-ci.org/sethkrasnianski/functility) [![npm version](https://badge.fury.io/js/functility.svg)](http://badge.fury.io/js/functility)
+# Functility [![Build Status](https://travis-ci.org/sethkrasnianski/functility.svg?branch=master)](https://travis-ci.org/sethkrasnianski/functility) [![npm version](https://badge.fury.io/js/functility.svg)](http://badge.fury.io/js/functility) [![Maintainability](https://api.codeclimate.com/v1/badges/a200c37d8e771e88d812/maintainability)](https://codeclimate.com/github/sethkrasnianski/functility/maintainability)
 Utility functions for life.

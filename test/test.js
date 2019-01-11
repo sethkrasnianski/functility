@@ -2,8 +2,6 @@ var assert     = require('assert');
 var functility = require('../');
 var env        = process.env;
 
-var cipher = '4e7a3c6c2e833daea4a3fd3ccd0ab361$3ac83e71b8ae8d9929e6b2ab873112e0$a5d2171e8bb0dde029dfabf3ed5109bd7be7e1d11c693d094f4faac19d3a491f';
-
 describe('requireAll', function() {
   it('should return an object with 2 properties', function(done) {
     var module = functility.requireAll(__dirname + '/examples');
@@ -18,7 +16,7 @@ describe('crypt', function() {
     var text = 'testingthisout';
     var cipher  = encrypt(text);
 
-    assert(cipher, cipher);
+    assert.notEqual(text, cipher);
     done();
   });
 

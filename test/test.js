@@ -15,12 +15,12 @@ describe('crypto', function() {
     const text = 'mysupersecrettext';
     const cipher = encrypt(text);
 
-    assert.notEqual(text, cipher);
+    assert.notStrictEqual(text, cipher);
     done();
   });
 
   it('should decrypt a cipher', function(done) {
-    assert(decrypt(encrypt('testringthisout')), 'testringthisout');
+    assert.strictEqual(decrypt(encrypt('testringthisout')), 'testringthisout');
     done();
   });
 });

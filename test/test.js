@@ -12,7 +12,7 @@ describe('requireAll', function() {
 
 describe('crypto', function() {
   it('should encrypt text', function(done) {
-    const text = 'testingthisout';
+    const text = 'mysupersecrettext';
     const cipher = encrypt(text);
 
     assert.notEqual(text, cipher);

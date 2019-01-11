@@ -1,7 +1,6 @@
 const assert = require('assert');
 const { crypto, requireAll } = require('../');
 const { encrypt, decrypt } = crypto;
-const env = process.env;
 
 describe('requireAll', function() {
   it('should return an object with 2 properties', function(done) {

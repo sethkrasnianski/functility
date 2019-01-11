@@ -1,6 +1,6 @@
 const requireAll = require('./lib/require-all');
 
 module.exports = {
-  requireAll: requireAll,
+  requireAll,
   crypto: requireAll('./lib/crypto')
 };

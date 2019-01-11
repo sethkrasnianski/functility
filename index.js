@@ -1,4 +1,4 @@
-const requireAll = require('./lib/require_all');
+const requireAll = require('./lib/require-all');
 
 module.exports = {
   requireAll: requireAll,

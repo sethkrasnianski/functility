@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/sethkrasnianski/functility",
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^5.2.0"
   }
 }

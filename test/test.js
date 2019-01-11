@@ -4,8 +4,8 @@ const { encrypt, decrypt } = crypto;
 
 describe('requireAll', function() {
   it('should return an object with 2 properties', function(done) {
-    const module = requireAll('./fixtures');
-    assert(2, module.length);
+    const modules = requireAll('./fixtures');
+    assert(2, modules.length);
     done();
   });
 });

@@ -4,5 +4,5 @@ Utility functions for life.
 # Docs
 - [requireAll](/docs/require-all.md)
 - crypto
-  - [encrypt](/docs/encrypt.md)
-  - [decrypt](/docs/decrypt.md)
+  - [encrypt](/docs/crypto/encrypt.md)
+  - [decrypt](/docs/crypto/decrypt.md)
